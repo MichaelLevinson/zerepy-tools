@@ -180,15 +180,7 @@ class MyCustomGenerator(BaseGenerator):
         return template
 ```
 
-## Performance Benchmarks
 
-| Operation | Python Implementation | Cython Implementation | Speedup |
-|-----------|----------------------|----------------------|---------|
-| Pattern Matching | 1.00x | 10.50x | 10.50x |
-| Parameter Extraction | 1.00x | 8.75x | 8.75x |
-| Template Rendering | 1.00x | 6.20x | 6.20x |
-| Code Generation | 1.00x | 4.30x | 4.30x |
-| Batch Processing (100 items) | 1.00x | 25.00x | 25.00x |
 
 ## License
 
