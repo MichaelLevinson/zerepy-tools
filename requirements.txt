@@ -1,0 +1,4 @@
+# Add basic Python requirements
+pydantic>=1.8.0
+numpy>=1.19.0
+cython>=0.29.21
